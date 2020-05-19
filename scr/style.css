@@ -1,4 +1,7 @@
 body {
-  color: white;
-  background: gray;
+  font: normal 18pt Arial;
+}
+
+div {
+  padding: 5px;
 }
