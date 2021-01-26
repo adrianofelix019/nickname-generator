@@ -3,7 +3,7 @@ function start() {
   let result = document.querySelector('div#result')
   if(validateLength(len)) {
     let nick = generateNick(Number(len))
-    result.innerText = `Your nickname is: ${nick}`
+    result.innerText = `Your new nickname is: ${nick}`
   }
 }
 
@@ -28,7 +28,7 @@ function generateNick(len) {
 
 function validateLength(len) {
   if(len.length == 0 || len <= 0) {
-    window.alert('Invalid value for length, try again')
+    window.alert('Invalid length, try again')
     return false
   } else {
     return true

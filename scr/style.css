@@ -1,7 +1,33 @@
+* {
+  color: white;
+  background: black;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
   font: normal 18pt Arial;
 }
 
-div {
+#app {
+  height: 230px;
+  width: 500px;
+  border: 1px solid #fff;
+  border-radius: 5px;
   padding: 5px;
+  text-align: center;
+}
+
+input {
+  font: normal 12pt Arial;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#result {
+  padding-top: 10px;
 }
